@@ -7,7 +7,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import HomeScreen from '../Dashboard/Tabs/HomeScreen';
 const themecolor = '#ef9c2b';
 
-export default function Demo() {
+function Demo() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
         <Text>Demo Screen</Text>
